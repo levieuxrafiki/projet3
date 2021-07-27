@@ -1,0 +1,22 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "projet 3 OpenClassroomsroom",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levieuxrafiki/projet3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levieuxrafiki/projet3/issues"
+  },
+  "homepage": "https://github.com/levieuxrafiki/projet3#readme",
+  "dependencies": {
+    "sass": "^1.36.0"
+  }
+}
