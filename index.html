@@ -1,0 +1,90 @@
+a<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ohmyfood</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Loading spinner -->
+    <div class="spinner">
+      <div class="spinner__border">
+        <div class="spinner__center"></div>
+      </div>
+    </div>
+
+    <!-- Logo -->
+    <header>
+      <div class="header">
+        <a href="index.html"><h1 class="header__logo">ohmyfood</h1></a>
+      </div>
+    </header>
+
+    <!-- Localisation -->
+    <main class="main">
+      <div class="location">
+        <div class="location__icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="location__city">
+          <p>Paris, Belleville</p>
+        </div>
+      </div>
+
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="hero__container">
+          <h2 class="hero__title">Réservez le menu qui vous convient</h2>
+          <p class="hero__text">
+            Découvrez des restaurants d'exception, séléctionnés par nos soins
+          </p>
+          <div class="hero__button">
+            <p>Explorer nos restaurants</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section class="process__contain">
+        <div class="process">
+          <h2 class="process__title">Fonctionnement</h2>
+          <div class="process__steps">
+            <div class="process__step">
+              <div class="process__number">1</div>
+              <div class="process__icon"><i class="fas fa-mobile-alt"></i></div>
+              <p class="process__text">Choisissez un restaurant</p>
+            </div>
+            <div class="process__step">
+              <div class="process__number">2</div>
+              <div class="process__icon"><i class="fas fa-list-ul"></i></div>
+              <p class="process__text">Composez votre menu</p>
+            </div>
+            <div class="process__step">
+              <div class="process__number">3</div>
+              <div class="process__icon"><i class="fas fa-store"></i></div>
+              <p class="process__text">Dégustez au restaurant</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
