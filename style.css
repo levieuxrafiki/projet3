@@ -1,11 +1,9 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  background: #f6f6f6;
+h2 {
+  color: black;
 }
 
-* a {
-  text-decoration: none;
-  color: white;
+.button {
+  color: green;
 }
+
 /*# sourceMappingURL=style.css.map */
