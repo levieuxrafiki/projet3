@@ -1,8 +1,75 @@
-.button {
-    color: green ;
-    label {
-
+.process__contain {
+    padding: 25px 0;
+    width: 100%;
+    background: white;
+    display: flex;;
+    flex-direction: column;
+}
+.process {
+    width: 95%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 0 ;   
+    display: flex;
+    flex-direction: column ;
+    &__title {
+        margin: 0;
     }
-
-   
+    &__step {
+        display: flex;
+        align-items: center;
+        background: #f6f6f6;
+        height: auto;
+        width: auto;
+        margin: 10px 20px;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.16);
+        &:hover {
+            @include button-hover;
+            background: lighten(#f7f7f7, 3%);
+        }
+    }
+        &__number {
+                background-color: $color-primary;
+                color: white;
+                position: absolute;
+                padding: 3px 8px 3px 8px;
+                border-radius: 500px;
+                transform: translateX(-50%);
+            }
+        &__icon {
+            color: #7E7E7E;
+            margin: 0 20px;
+        }
+    &__steps {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+.hero {
+    background: #fafafa;
+    width: 100%;
+    &__container {
+        width: 100%;
+        padding: 20px;
+        @include flexbox-center();
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    &__title {
+        text-align: center;
+        max-width: 250px;
+        margin: 0;
+    }
+    &__text {
+        text-align: center;
+    }
+    &__button {
+        @include button-style;
+        &:hover {
+            @include button-hover;
+        }
+    }
 }
