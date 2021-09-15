@@ -24,97 +24,6 @@
   src: url(https://fonts.gstatic.com/s/shrikhand/v6/a8IbNovtLWfR7T7bMJwrA4KR8TtctQ.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-.process__contain {
-  padding: 25px 0;
-  width: 100%;
-  background: white;
-  display: flex;
-  flex-direction: column;
-}
-
-.process {
-  width: 95%;
-  max-width: 1200px;
-  background-color: white;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-.process__title {
-  margin: 0;
-}
-.process__step {
-  display: flex;
-  align-items: center;
-  background: #f6f6f6;
-  height: auto;
-  width: auto;
-  margin: 10px 20px;
-  border-radius: 20px;
-  position: relative;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
-}
-.process__step:hover {
-  opacity: 0.8;
-  cursor: pointer;
-  transition: 0.3s;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
-  background: white;
-}
-.process__number {
-  background-color: #9356DC;
-  color: white;
-  position: absolute;
-  padding: 3px 8px 3px 8px;
-  border-radius: 500px;
-  transform: translateX(-50%);
-}
-.process__icon {
-  color: #7E7E7E;
-  margin: 0 20px;
-}
-.process__steps {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.hero {
-  background: #fafafa;
-  width: 100%;
-}
-.hero__container {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 50px 0;
-}
-.hero__title {
-  text-align: center;
-  max-width: 250px;
-  margin: 0;
-}
-.hero__text {
-  text-align: center;
-}
-.hero__button {
-  opacity: 1;
-  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
-  color: white;
-  padding: 0 20px;
-  border-radius: 200px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-}
-.hero__button:hover {
-  opacity: 0.8;
-  cursor: pointer;
-  transition: 0.3s;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
-}
-
 .footer {
   width: 100%;
   background-color: #353535;
@@ -176,6 +85,17 @@
 .footer__bloc-link__title {
   font-size: 16px;
   font-weight: 400;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background: #f6f6f6;
+}
+
+* a {
+  text-decoration: none;
+  color: white;
 }
 
 .restaurants {
@@ -317,6 +237,97 @@ body {
 * a {
   text-decoration: none;
   color: white;
+}
+
+.process__contain {
+  padding: 25px 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.process {
+  width: 95%;
+  max-width: 1200px;
+  background-color: white;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.process__title {
+  margin: 0;
+}
+.process__step {
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  height: auto;
+  width: auto;
+  margin: 10px 20px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+}
+.process__step:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+  background: white;
+}
+.process__number {
+  background-color: #9356DC;
+  color: white;
+  position: absolute;
+  padding: 3px 8px 3px 8px;
+  border-radius: 500px;
+  transform: translateX(-50%);
+}
+.process__icon {
+  color: #7E7E7E;
+  margin: 0 20px;
+}
+.process__steps {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero {
+  background: #fafafa;
+  width: 100%;
+}
+.hero__container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+.hero__title {
+  text-align: center;
+  max-width: 250px;
+  margin: 0;
+}
+.hero__text {
+  text-align: center;
+}
+.hero__button {
+  opacity: 1;
+  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  color: white;
+  padding: 0 20px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.hero__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
 /*# sourceMappingURL=style.css.map */
