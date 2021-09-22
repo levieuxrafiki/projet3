@@ -1,0 +1,31 @@
+@media screen and (min-width: 800px) {
+    .restaurant {
+        &__cards {
+            display: grid;
+            grid-template-rows: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+    }
+    .process__step {
+        width: 100%;
+    }
+    .process__steps {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .footer {
+        &__bloc {
+            margin-bottom: 15px;
+            &-links {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+                max-width: 900px;
+            }
+        }
+    }
+}
